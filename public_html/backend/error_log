@@ -1,0 +1,6 @@
+[20-Jun-2022 17:31:39 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'userparttimemaid'@'localhost' to database 'parttimemaid' in /home/parttimemaid/public_html/classes/class_connection.php on line 16
+[01-Oct-2022 15:17:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/parttimemaid/public_html/backend/agency.php on line 117
+[01-Oct-2022 15:18:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/parttimemaid/public_html/backend/agency.php on line 117
+[01-Oct-2022 15:18:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/parttimemaid/public_html/backend/agency.php on line 117
+[01-Oct-2022 15:18:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/parttimemaid/public_html/backend/agency.php on line 117
+[01-Oct-2022 15:19:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/parttimemaid/public_html/backend/agency.php on line 117

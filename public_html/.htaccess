@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/?c/(.*?)/?$ /includes/lib/rzvy_cancel.php?bid=$1 [L]
+RewriteRule ^/?f/(.*?)/?$ /includes/lib/rzvy_feedback.php?bid=$1 [L]
+RewriteRule ^/?m/(.*?)/?$ /index.php?campid=$1 [L]
+RewriteRule ^/?mr/(.*?)/(.*?)/?$ /index.php?campid=$1&ref=$2 [L]
+RewriteRule ^/?p/(.*?)/?$ /index.php?promocode=$1 [L]
+RewriteRule ^/?mp/(.*?)/(.*?)/?$ /index.php?campid=$1&promocode=$2 [L]
+RewriteRule ^/?mrp/(.*?)/(.*?)/(.*?)/?$ /index.php?campid=$1&ref=$2&promocode=$3 [L]
+RewriteRule ^/?rp/(.*?)/(.*?)/?$ /index.php?ref=$1&promocode=$2 [L]
+RewriteRule ^(.+)-(\d+)\.html$ part-time-maid-details.php?id=$2
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
